@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            table {
+                border-collapse: collapse;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 30px;
+                border: solid 2px;
+
+            }
+            td{
+                
+                padding: 0px;
+                text-align: center;
+                width: 50px;
+                height: 50px;
+                font-weight: bold;
+                font-size: x-large;
+                border: solid 2px;
+            }
+            sup{
+                text-align: left;
+                font-size: small;
+                vertical-align: top;
+                margin-right: 6px;
+                margin-left: 0.5px;
+                
+            }
+            td:empty {
+                background: black;
+            }
+            .across{
+                display: inline-block;
+            }
+            .down{
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 20px;
+                
+            }
+            .answer{
+                display: block;
+                background-color: red;
+                color: white;
+                height: 40pt;
+                width: 80pt;
+                border: none;
+                margin: 30px;
+                margin-right: 10px;
+                cursor: pointer;
+                border-radius: 5pt;
+            }
+            .answer:hover{
+                text-decoration: underline;
+
+            }
+            .answer:active{
+                background-color: forestgreen;
+
+            }
+            tr {
+                
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: italic; text-align: center;"> CROSSWORD
+
+        </h1>
+        <table>
+            <tr>
+                <td><sup>1</sup>S</td>
+                <td>T</td>
+                <td><sup>2</sup>A</td>
+                <td>T</td>
+                <td><sup>3</sup>E</td>
+                <td></td>
+                <td><sup>4</sup>A</td>
+                <td><sup>5</sup>I</td>
+                <td><sup>6</sup>R</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>H</td>
+                <td></td>
+                <td>N</td>
+                <td></td>
+                <td>L</td>
+                <td></td>
+                <td><sup>7</sup>P</td>
+                <td>R</td>
+                <td>O</td>
+                <td><sup>8</sup>D</td>
+            </tr>
+            <tr>
+                <td><sup>9</sup>O</td>
+                <td>C</td>
+                <td>T</td>
+                <td>O</td>
+                <td>B</td>
+                <td>E</td>
+                <td>R</td>
+                <td></td>
+                <td><sup>10</sup>W</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>R</td>
+                <td></td>
+                <td>A</td>
+                <td></td>
+                <td>O</td>
+                <td></td>
+                <td><sup>11</sup>I</td>
+                <td><sup>12</sup>S</td>
+                <td></td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td><sup>13</sup>E</td>
+                <td><sup>14</sup>A</td>
+                <td>R</td>
+                <td></td>
+                <td><sup>15</sup>W</td>
+                <td><sup>16</sup>E</td>
+                <td>L</td>
+                <td>L</td>
+                <td></td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><sup>17</sup>I</td>
+                <td>C</td>
+                <td>E</td>
+                <td></td>
+                <td>V</td>
+                <td></td>
+                <td><sup>18</sup>I</td>
+                <td><sup>19</sup>F</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><sup>20</sup>I</td>
+                <td>R</td>
+                <td>T</td>
+                <td></td>
+                <td><sup>21</sup>L</td>
+                <td>E</td>
+                <td>A</td>
+                <td>D</td>
+                <td>E</td>
+                <td>R</td>
+            </tr>
+            <tr>
+                <td>S</td>
+                <td></td>
+                <td>I</td>
+                <td></td>
+                <td><sup>22</sup>I</td>
+                <td>R</td>
+                <td></td>
+                <td><sup>23</sup>E</td>
+                <td>E</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td></td>
+                <td>C</td>
+                <td></td>
+                <td><sup>24</sup>E</td>
+                <td>Y</td>
+                <td><sup>25</sup>E</td>
+                <td></td>
+                <td><sup>26</sup>L</td>
+                <td><sup>27</sup>E</td>
+            </tr>
+            <tr>
+                <td><sup>28</sup>T</td>
+                <td>E</td>
+                <td>A</td>
+                <td>R</td>
+                <td></td>
+                <td></td>
+                <td><sup>29</sup>W</td>
+                <td>O</td>
+                <td></td>
+                <td>R</td>
+            </tr>
+        </table>
+        <button class="answer">
+            <a href="index.html">Click here to hide answers</a>
+            
+        </button>
+
+        <div class="across">
+
+            <h3>Across</h3>
+            <p>
+            1. New South Wales is a ____ of Austria <br/>
+            4. To travel on a boat is to s_ _ _ (fill the blank) <br/>
+            7. To poke <br/>
+            9. The month before November <br/>
+            10. Yesterday I wore a coat, today I will _ _ar a coat (fill the blank) <br/>
+            11. Replace the underlined word: A herd of elephants are coming <br/>
+            13. Body part for hearing <br/>
+            15. Replace the underlined word: He is doing good at school <br/>
+            17. Solid Water <br/>
+            18. I'm sure I can do it _ _ I try hard <br/>
+            20. Another word for soid: d_ _ _(fill the blank) <br/>
+            21. The head of a group <br/>
+            22. A round shape: c_ _cle(fill the blank) <br/>
+            23. A light wind: br_ _ze(fill the blank) <br/>
+            24. Body part for vision <br/>
+            26. The plural of person: peop_ _(fill the blank) <br/>
+            28. To rip <br/>
+            29. The plural of woman: _ _men(fill the blank) 
+            </p>
+        </div>
+
+       
+        <div class="down"> 
+            <h3>Down</h3>
+
+            
+
+            <p>
+                1. Another word for beach <br/>
+                2. Location of South pole is here <br/>
+                3. Without this is your arm you wouldn't be able to scrath your nose <br/>
+                4. The fourth Month of the Year <br/>
+                5. Ten, Twenty, Th_ _ty(fill the blank) <br/>
+                6. Opposite of high <br/>
+                8. Person who can't hear <br/>
+                12. I will _____ down the slippery mud <br/>
+                14. Oxegyn is part of ___ <br/>
+                16. _____ day I brush my teeth <br/>
+                19. We _____ things with our fingers <br/>
+                20. The abbreviated word for "is not" <br/>
+                21. I will ___ down my border <br/>
+                25. The past tense of fly: fl_ _ (fill the blank) <br/>
+                27. The capital city of Western Australia is P_ _th (fill the blank)
+
+            </p>
+        </div>
+        
+        
+
+    </body>
+    
+
+</html>
